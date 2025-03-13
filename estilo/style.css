@@ -1,0 +1,72 @@
+@charset "UTF-08";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    background-color: lightgray;
+}
+
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    background-color: azure;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: justify;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.imagem{
+    width: 100%;
+    height: 40%;
+    max-width: 200vw;
+    background-image: url(../imagens/Dune\ Wallpaper.jpg);
+    background-position: center bottom;
+    background-size: cover;
+
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+    align-self: flex-start;
+
+}
+
+.formn{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 0px;  
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+p{
+    margin: 10px;
+    font-size: 1em;
+}
+
+
+label, .dog{
+    margin-left: 10px;
+}
+input, .dog{
+    margin-bottom: 10px;
+}
